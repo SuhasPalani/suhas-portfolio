@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root
-{
+:root {
     --bg-black-900: #f2f2fc;
     --bg-black-100: #fdf9ff;
     --bg-black-50: #e8dfec;
     --text-black-900: #302e4d;
 
 }
-body
-{
+
+body {
     /* margin:0;
     padding: 0; */
     line-height: 1.5;
@@ -17,22 +16,20 @@ body
     font-family: 'Poppins' sans-serif;
 }
 
-*
-{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
 }
 
-::before,::after
-{
+::before,
+::after {
     box-sizing: border-box;
 }
 
-.aside
-{
+.aside {
     width: 270px;
     background: var(--bg-black-100);
     position: fixed;
@@ -47,8 +44,7 @@ body
     border-right: 1px solid var(--bg-black-50);
 }
 
-.section
-{
+.section {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
@@ -60,20 +56,18 @@ body
     z-index: 0;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.aside .logo
-{
+.aside .logo {
     position: absolute;
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
 }
 
-.aside .logo a
-{
+.aside .logo a {
     color: var(--text-black-900);
     font-weight: 700;
     position: relative;
@@ -81,14 +75,13 @@ ul{
     font-size: 30px;
     letter-spacing: 5px;
 }
-.aside .logo a span
-{
+
+.aside .logo a span {
     font-family: 'Clicker Script', cursive;
     font-family: 40px;
 }
 
-.aside .logo a::before
-{
+.aside .logo a::before {
     content: '';
     position: absolute;
     width: 20px;
@@ -99,8 +92,7 @@ ul{
     left: 0;
 }
 
-.aside .logo a::after
-{
+.aside .logo a::after {
     content: '';
     position: absolute;
     width: 20px;
@@ -110,12 +102,12 @@ ul{
     top: 0;
     right: 0;
 }
-.aside .nav-toggler
-{
-    height: 40px;   
-    width: 45px; 
+
+.aside .nav-toggler {
+    height: 40px;
+    width: 45px;
     border: 1px solid var(--bg-black-50);
-    cursor: pointer;  
+    cursor: pointer;
     position: fixed;
     left: 300px;
     top: 20px;
@@ -126,8 +118,7 @@ ul{
     justify-content: center;
 }
 
-.aside .nav-toggler span
-{
+.aside .nav-toggler span {
     height: 2px;
     width: 18px;
     background: var(--skin-color);
@@ -136,8 +127,7 @@ ul{
 
 }
 
-.aside .nav-toggler span::before
-{
+.aside .nav-toggler span::before {
     content: '';
     height: 2px;
     width: 18px;
@@ -147,8 +137,7 @@ ul{
     left: 0;
 }
 
-.aside .nav-toggler span::after
-{
+.aside .nav-toggler span::after {
     content: '';
     height: 2px;
     width: 18px;
@@ -158,21 +147,18 @@ ul{
     left: 0;
 }
 
-.aside .nav
-{
+.aside .nav {
     margin-top: 50px;
 
 }
 
 
-.aside .nav li
-{
+.aside .nav li {
     margin-bottom: 20px;
     display: block;
 }
 
-.aside .nav li a
-{
+.aside .nav li a {
     font-size: 16px;
     font-weight: 600;
     display: block;
@@ -182,12 +168,10 @@ ul{
 }
 
 
-.aside .nav li a.active
-{
+.aside .nav li a.active {
     color: var(--skin-color);
 }
 
-.aside .nav li a i
-{
+.aside .nav li a i {
     margin-right: 15px;
 }
