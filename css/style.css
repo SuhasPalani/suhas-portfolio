@@ -790,3 +790,8 @@ h3.my-profession {
 .skill-item p {
   color: var(--text-color);
 }
+
+.timeline-text ul {
+  list-style-type: disc; /* You can use other values like 'circle' or 'square' */
+  margin-left: 20px; /* Adjust the margin as needed */
+}
